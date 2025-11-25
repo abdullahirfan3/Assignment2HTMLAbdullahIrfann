@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>545WERKS - Contact Info</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="545WERKS, about us, creator information, history">
+    <meta name="description" content="Contact us via the options shown .">
+    <meta name="author" content="Mohammad Abdullah Irfan">
+
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="../style/layout.css">
+    <link rel="stylesheet" href="../style/nav.css">
+    <link rel="stylesheet" href="../style/contact.css">
+  </head>
+
+  <body class="page">
+	
+  <a class="skip-link" href="#main">Skip to main content</a><!--for this to work make sure you are not trying to type in the contact form , and then press tab and the option will come up-->
+
+    <div class="page-inner">
+      <header>
+        <nav>
+          <ul>
+            <li class="logo">
+              <img src="../images/logo.png" alt="logo image">
+            </li>
+            <li class="home"><a href="../main.html">Home</a></li>
+            <li class="about"><a href="about.html">About BMW 545i</a></li>
+            <li class="reviews"><a href="reviews.html">Reviews</a></li>
+            <li class="contact" id="here">Contact</li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="main">
+       
+        <section class="hero">
+          <h1>Contact Us</h1>
+          <p>
+            Do you have questions for us about the 545i, or just want to talk? Fill out the form below.
+          </p>
+       	    <!--Image was generated using (OpenAI, 2025) with the prompt "create BMW E60 headlights side by side with a transparent background."-->
+           <img
+           src="../images/angeleyestransparent.png" 
+           alt="AngelEyes from the headlights"            
+	   class="hero-image">
+        </section>
+
+        <article class="contact-content">
+	  <h2>Contact Form</h2>
+          
+          <img src="../images/logo.png" alt="logo image">
+
+          <form action="mailto:contactus@545WERKS.com" method="get">
+          
+            <p>
+              <label>
+                Salutation:
+                <span class="required">(required)</span><br>
+                <select name="salutation" required>
+                  <option value="">Select…</option>
+                  <option>Mr.</option>
+                  <option>Ms.</option>
+                </select>
+              </label>
+            </p>
+
+            <p>
+              <label>
+                First name:
+                <span class="required">(required)</span><br>
+                <input type="text" name="first_name" required autofocus autocomplete="given-name">
+              </label>
+            </p>
+
+            <p>
+              <label>
+                Last name:
+                <span class="required">(required)</span><br>
+                <input type="text" name="last_name" required autocomplete="family-name">
+              </label>
+            </p>
+
+            <p>
+              <label>
+                Phone:
+                <span class="required">(required)</span><br>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="123-123-1234"
+                  pattern="\d{3}-\d{3}-\d{4}"
+                  required
+ 		  autocomplete="tel">
+              </label>
+            </p>
+
+            <p>
+              <label>
+                Email:
+                <span class="required">(required)</span><br>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="abc@xyz.com"
+                  required
+		  autocomplete="email">
+              </label>
+            </p>
+
+            <p>
+              <label>
+                Subject:
+                <span class="required">(required)</span><br>
+                <input type="text" name="subject" maxlength="45" required>
+              </label>
+            </p>
+
+            <fieldset class="topic-group">
+              <legend>Reason for contact <span class="required">(required)</span></legend>
+              <label>
+                <input type="radio" name="topic" value="comment" required>
+                Comment
+              </label>
+              <label>
+                <input type="radio" name="topic" value="concern">
+                Concern
+              </label>
+            </fieldset>
+
+            <p>
+              <label>
+                Date<br>
+                <input type="date" name="date">
+              </label>
+            </p>
+
+            <p>
+              <label>
+                Message:
+                <span class="required">(required)</span><br>
+                <textarea name="body" rows="5" cols="50" required></textarea>
+              </label>
+            </p>
+
+            <p>
+              <label>
+                <input type="checkbox" name="addToList" value="addToList">
+                Add me to your email list
+              </label>
+            </p>
+
+            <p>
+              <label>
+                <input type="checkbox" name="notifyNewPost" value="notifyNewPost">
+                Contact me when a new build is posted
+              </label>
+            </p>
+
+            <p class="form-buttons">
+              <input type="submit" value="Submit">
+              <input type="reset" value="Clear">
+            </p>
+          </form>
+        </article>
+      </main>
+
+      <footer>
+        <p>545WERKS&copy;</p>
+        <a href="../main.html">Home</a> &#124;
+        <a href="about.html">About BMW 545i</a> &#124;
+        <a href="reviews.html">Reviews</a> &#124;
+        <a href="contact.html">Contact</a>
+      </footer>
+    </div>
+  </body>
+</html>
+
+

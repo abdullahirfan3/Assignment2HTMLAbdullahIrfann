@@ -1,0 +1,71 @@
+main {
+  margin-top: 1.5rem;
+  font-family: "BMW Helvetica";
+  color: #6a6a6a;
+}
+
+article {
+  margin-top: 1.5rem;
+}
+
+.spec-heading {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
+
+figure {
+  text-align: center;
+  margin: 0 auto 1.5rem auto;
+  width: 65%;
+  max-width: 650px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption::first-letter {
+  color: #0166b1;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+table {
+  margin: 0 auto 1.5rem auto;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: #0166b1;
+  color: #ffffff;
+  padding: 10px 14px;
+}
+
+tr:nth-child(odd) td {
+  background-color: #f2f2f2;
+}
+
+td {
+  padding: 10px 20px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.external-link,
+p a.external-link {
+  text-align: center;
+}
+
+.external-link a {
+  display: inline-block;
+  color: #0166b1;
+  text-decoration: none;
+}
+
+.external-link a:hover {
+  text-decoration: underline;
+}
+
